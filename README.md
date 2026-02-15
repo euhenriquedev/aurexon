@@ -1,35 +1,39 @@
 # Aurexon
 
-Aurexon is a technology studio focused on building high-performance software, intelligent automation, and AI-powered systems that improve operational efficiency and reduce costs with measurable business impact.
+Aurexon is an engineering-focused technology company that designs and delivers high-performance software, intelligent automation, and applied AI solutions.
+
+Our objective is simple: improve operational efficiency, reduce costs, and create measurable business outcomes through reliable, scalable systems.
 
 ---
 
-## Overview
+## Company Profile
 
-Aurexon designs and delivers robust digital solutions for organizations that need scalable systems, resilient architectures, and process optimization at scale.
+Aurexon partners with organizations that need robust digital platforms, resilient backend services, and automation initiatives that can scale with business growth.
 
-Our work combines software engineering discipline with practical AI and automation strategies, enabling teams to operate faster, with greater reliability and lower operational overhead.
+We combine strong software engineering practices with pragmatic AI adoption to accelerate delivery, improve system reliability, and increase operational leverage.
 
 ---
 
 ## Mission
 
-To engineer efficient and scalable technology solutions that transform operations, reduce costs, and unlock sustainable performance gains.
+To build efficient and scalable technology solutions that transform operations, reduce costs, and unlock sustainable performance gains.
 
 ## Vision
 
-To become a globally recognized reference in automation and applied artificial intelligence, helping organizations achieve operational excellence through technology.
-
-## Value Proposition
-
-- **Performance-first engineering:** Solutions designed for speed, reliability, and maintainability.
-- **Automation-driven efficiency:** Elimination of repetitive workflows and process bottlenecks.
-- **Applied AI with business focus:** Intelligent systems aligned with concrete operational outcomes.
-- **Scalable architecture:** Foundations prepared for growth, integration, and long-term sustainability.
+To become a globally recognized leader in automation and applied artificial intelligence, enabling organizations to achieve operational excellence through technology.
 
 ---
 
-## Core Areas
+## Value Proposition
+
+- **Performance-first engineering:** Architectures and implementations optimized for speed, reliability, and maintainability.
+- **Automation-driven execution:** Reduction of repetitive workflows, bottlenecks, and manual operational risk.
+- **Business-aligned AI adoption:** Intelligent systems designed around concrete operational and financial outcomes.
+- **Scalable foundations:** Technology stacks prepared for growth, integration, and long-term sustainability.
+
+---
+
+## Core Capabilities
 
 - Artificial Intelligence
 - Intelligent Automation Systems
@@ -42,14 +46,14 @@ To become a globally recognized reference in automation and applied artificial i
 
 ## Operating Principles
 
-- **Technical excellence:** high standards for architecture, code quality, and delivery.
-- **Business alignment:** technology decisions tied to measurable organizational value.
-- **Sustainable execution:** solutions built for long-term operation, not short-term patches.
-- **Continuous improvement:** iterative delivery, observability, and optimization.
+- **Technical excellence:** High standards for architecture, code quality, testing, and delivery.
+- **Business alignment:** Technology decisions linked to measurable organizational value.
+- **Sustainable execution:** Solutions designed for long-term operation, not short-term fixes.
+- **Continuous improvement:** Iterative delivery supported by observability and ongoing optimization.
 
 ---
 
-## Current Status
+## Project Status
 
 Aurexon is in active development.
 
