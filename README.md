@@ -1,5 +1,9 @@
 # Aurexon
 
+<p align="center">
+  <img src="assets/brand-motion.svg" alt="Aurexon animated brand banner" width="100%" />
+</p>
+
 Aurexon is an engineering-focused technology company that designs and delivers high-performance software, intelligent automation, and applied AI solutions.
 
 Our objective is simple: improve operational efficiency, reduce costs, and create measurable business outcomes through reliable, scalable systems.
