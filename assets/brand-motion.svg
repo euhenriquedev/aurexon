@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurexon animated banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#111A33"/>
+      <stop offset="1" stop-color="#1A2A4F"/>
+      <animate attributeName="x1" values="0;200;0" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#52B6FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#52B6FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#52B6FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+
+  <g opacity="0.35">
+    <path d="M0 90H1200" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M0 160H1200" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M0 230H1200" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M180 0V320" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M420 0V320" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M660 0V320" stroke="#2A3F71" stroke-width="1"/>
+    <path d="M900 0V320" stroke="#2A3F71" stroke-width="1"/>
+  </g>
+
+  <rect x="-350" y="0" width="350" height="320" fill="url(#beam)" filter="url(#glow)">
+    <animate attributeName="x" values="-350;1200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g filter="url(#glow)">
+    <text x="80" y="140" fill="#F4F8FF" font-size="64" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1.5">AUREXON</text>
+    <text x="82" y="188" fill="#8FCBFF" font-size="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">Performance Engineering • Intelligent Automation • Applied AI</text>
+  </g>
+
+  <g>
+    <circle cx="1040" cy="90" r="44" stroke="#52B6FF" stroke-width="2" opacity="0.7" fill="none">
+      <animate attributeName="r" values="34;52;34" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="90" r="14" fill="#52B6FF" opacity="0.9">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

@@ -1,45 +1,75 @@
 # Aurexon
 
-Aurexon builds advanced software, automation and AI systems focused on performance, scalability, cost reduction, efficiency optimization and operational excellence, delivering real-world impact.
+<p align="center">
+  <img src="assets/brand-motion.svg" alt="Aurexon animated brand banner" width="100%" />
+</p>
+
+Aurexon is an engineering-focused technology company that designs and delivers high-performance software, intelligent automation, and applied AI solutions.
+
+Our objective is simple: improve operational efficiency, reduce costs, and create measurable business outcomes through reliable, scalable systems.
+
+---
+
+## Company Profile
+
+Aurexon partners with organizations that need robust digital platforms, resilient backend services, and automation initiatives that can scale with business growth.
+
+We combine strong software engineering practices with pragmatic AI adoption to accelerate delivery, improve system reliability, and increase operational leverage.
 
 ---
 
 ## Mission
 
-To engineer powerful, efficient and scalable technology that transforms operations, reduces costs and unlocks new levels of performance.
-
----
+To build efficient and scalable technology solutions that transform operations, reduce costs, and unlock sustainable performance gains.
 
 ## Vision
 
-To become a global technology leader in automation and artificial intelligence, creating systems that redefine efficiency and operational excellence.
+To become a globally recognized leader in automation and applied artificial intelligence, enabling organizations to achieve operational excellence through technology.
 
 ---
 
-## Core Areas
+## Value Proposition
+
+- **Performance-first engineering:** Architectures and implementations optimized for speed, reliability, and maintainability.
+- **Automation-driven execution:** Reduction of repetitive workflows, bottlenecks, and manual operational risk.
+- **Business-aligned AI adoption:** Intelligent systems designed around concrete operational and financial outcomes.
+- **Scalable foundations:** Technology stacks prepared for growth, integration, and long-term sustainability.
+
+---
+
+## Core Capabilities
 
 - Artificial Intelligence
-- Automation Systems
-- Backend Engineering
-- Performance Optimization
-- Cost Reduction Solutions
+- Intelligent Automation Systems
+- Backend and Distributed Systems Engineering
+- Performance and Scalability Optimization
+- Cost Reduction and Operational Efficiency
 - Data Analysis and Infrastructure
 
 ---
 
-## Status
+## Operating Principles
 
-Aurexon is currently in active development.
+- **Technical excellence:** High standards for architecture, code quality, testing, and delivery.
+- **Business alignment:** Technology decisions linked to measurable organizational value.
+- **Sustainable execution:** Solutions designed for long-term operation, not short-term fixes.
+- **Continuous improvement:** Iterative delivery supported by observability and ongoing optimization.
 
 ---
 
-## Founder
+## Project Status
 
-Henrique Oliveira  
+Aurexon is in active development.
+
+---
+
+## Leadership
+
+**Henrique Oliveira**  
 Founder and Software Engineer
 
 ---
 
 ## License
 
-MIT License
+This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
