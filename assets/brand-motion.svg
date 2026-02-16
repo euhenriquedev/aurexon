@@ -1,0 +1,90 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurexon animated brand banner">
+  <defs>
+    <linearGradient id="bgPrimary" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="0.45" stop-color="#0D1730"/>
+      <stop offset="1" stop-color="#132951"/>
+      <animate attributeName="x1" values="0;260;0" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="haloLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 70) rotate(35) scale(330 260)">
+      <stop offset="0" stop-color="#3FA9FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3FA9FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="haloRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 280) rotate(15) scale(420 300)">
+      <stop offset="0" stop-color="#6EC8FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6EC8FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#77CAFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#77CAFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#77CAFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panelBorder" x1="130" y1="72" x2="850" y2="278" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9ED8FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2C69A9" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardShadow" x="90" y="58" width="800" height="260" filterUnits="userSpaceOnUse">
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="12"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.08 0 0 0 0 0.18 0 0 0 0.55 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bgPrimary)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#haloLeft)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#haloRight)"/>
+
+  <g opacity="0.32">
+    <path d="M0 82H1200" stroke="#234777" stroke-width="1"/>
+    <path d="M0 144H1200" stroke="#234777" stroke-width="1"/>
+    <path d="M0 206H1200" stroke="#234777" stroke-width="1"/>
+    <path d="M0 268H1200" stroke="#234777" stroke-width="1"/>
+    <path d="M165 0V360" stroke="#234777" stroke-width="1"/>
+    <path d="M405 0V360" stroke="#234777" stroke-width="1"/>
+    <path d="M645 0V360" stroke="#234777" stroke-width="1"/>
+    <path d="M885 0V360" stroke="#234777" stroke-width="1"/>
+  </g>
+
+  <rect x="-320" y="0" width="320" height="360" fill="url(#scanLine)" filter="url(#softGlow)">
+    <animate attributeName="x" values="-320;1220" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <g filter="url(#cardShadow)">
+    <rect x="120" y="72" width="740" height="206" rx="18" fill="#0A1428" fill-opacity="0.64"/>
+  </g>
+  <rect x="120" y="72" width="740" height="206" rx="18" fill="url(#panelBorder)" fill-opacity="0.08" stroke="url(#panelBorder)"/>
+
+  <g filter="url(#softGlow)">
+    <text x="168" y="150" fill="#F5FAFF" font-size="68" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="2">AUREXON</text>
+    <text x="170" y="198" fill="#9BD5FF" font-size="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500">Performance Engineering • Intelligent Automation • Applied AI</text>
+    <text x="170" y="234" fill="#D0E9FF" fill-opacity="0.85" font-size="16" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="400">Scalable systems with measurable business outcomes.</text>
+  </g>
+
+  <g>
+    <circle cx="983" cy="106" r="46" fill="none" stroke="#73C8FF" stroke-opacity="0.68" stroke-width="2">
+      <animate attributeName="r" values="38;56;38" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="983" cy="106" r="17" fill="#73C8FF" opacity="0.95" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M962 215L1005 172L1056 203L1101 156" stroke="#79CDFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="962" cy="215" r="5" fill="#79CDFF"/>
+    <circle cx="1005" cy="172" r="5" fill="#79CDFF"/>
+    <circle cx="1056" cy="203" r="5" fill="#79CDFF"/>
+    <circle cx="1101" cy="156" r="5" fill="#79CDFF"/>
+  </g>
+</svg>
